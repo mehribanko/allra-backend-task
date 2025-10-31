@@ -173,7 +173,7 @@ public class CartService {
     }
 
     /**
-     * 장바구니 조회 또는 생성 (헬퍼 메서드)
+     * 장바구니 조회 또는 생성
      */
     @Transactional
     protected Cart getOrCreateCart(Long userId) {
